@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-Hospital</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+   
+      
+      <h2 ><p style="text-align: center;">Results:</p> </h2>
+    {% if prediction == 1%}
+    <h1 style="color: red;">!!Chances of having Liver Disease is more, please consult a Doctor.</h1>
+    <p style="text-align:center;"><img src="https://image.shutterstock.com/image-photo/consult-your-doctor-medical-reminder-260nw-189378512.jpg" alt="HTML" width="250" height="150"></p>
+    <div style="border:3px solid;color:teal">
+    <p><h1>FOR FREE DOCTOR CONSULTATION:  <a href="https://secondconsult.com/">Click here</h1> </a></p>
+    <p><h1>TO BUY PRESCRIBED MEDICINES <a href="https://www.drugs.com/">follow the link</h1> </a></p>
+    </div>
+    <br>
+    <div style="border:3px solid;color:rgb(56, 15, 238)">
+    <h2><p style="text-align: center;color: orangered">Symptoms</h2></p>
+    <p>Classic symptoms of liver disease include:</p>
+     <ul>
+      <h4>
+      <li>nausea</li>
+      <li>vomiting</li>
+      <li>right upper quadrant abdominal pain, and </li>
+      <li>jaundice (a yellow discoloration of the skin due to elevated bilirubin concentrations in the bloodstream).</li></h4></div>
+    </ul>
+    <br> 
+    <div style="border:3px solid;color:black">
+    <h2><p style=" text-align:center;color: royalblue">PREVENTION</p></h2>
+    <p>To check about the Diseases and their Causes,Symptoms & Prevention (click below links)</p>
+     <ul>
+     <h2> <a href="https://yj5zlgobuezsssm62s6z7q.on.drv.tw/My%20templaetes/fattyliverdisease.html">Fatty Liver Disease </a><----click here</h2>
+      
+        
+        
+         <h2><a href="https://yj5zlgobuezsssm62s6z7q.on.drv.tw/My%20templaetes/Hepatitis.html">Hepatitis</a><----click here</h2>
+         
+
+<h2><a href="https://yj5zlgobuezsssm62s6z7q.on.drv.tw/My%20templaetes/cirrhosis.html">Cirrhosis</a><----click here</h2>
+<br>
+Foods good for livers:
+<h2><a href="https://yj5zlgobuezsssm62s6z7q.on.drv.tw/My%20templaetes/foods.html">Foods to be Consumed</a><----click here</h2>
+</div>
+    <br> 
+    
+    {% elif prediction == 0%}
+    <h2 style="text-align:center;color: blue">No Worries!!! You don't have Liver Disease.</h2>
+    <p style="text-align: center;"><img src="https://cdn.shopify.com/s/files/1/0038/0878/8544/files/Infographic_ExerciseForFattyLiver-2.jpg" alt="HTML" width="550" height="650"></p>
+    {% endif %}
+    
+
+</body>
+</html>
